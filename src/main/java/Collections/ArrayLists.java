@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class ArrayLists {
 
     public ArrayList<Integer> addShit(ArrayList<Integer> list1, ArrayList<Integer> list2) {
-        return null;
+        list1.addAll(list2);
+        return list1;
     }
 
     public Integer addShitTogether(ArrayList<Integer> list1, ArrayList<Integer> list2) {
